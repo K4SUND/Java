@@ -19,7 +19,7 @@ public class ThreadTwo implements Runnable{
                     Thread.sleep(4000);
                 } catch (InterruptedException e) {
 
-                    System.out.println("Thread is interrupted");
+                    System.out.println("Thread two is interrupted");
                     System.out.println(currentThread().getState());
                 }
             }

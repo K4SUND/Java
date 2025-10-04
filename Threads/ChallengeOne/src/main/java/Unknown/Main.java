@@ -10,6 +10,8 @@ public class Main {
         threadOne.start();
 
         //Thread Two (using runnable interface)
+        // 1. runnable thread class instance
+        // 2. pass as parameter to  Thread class ( create Thread instance )
         ThreadTwo threadTwo = new ThreadTwo();
         Thread thread = new Thread(threadTwo);
         thread.start();
@@ -23,7 +25,9 @@ public class Main {
                     try {
                         Thread.sleep(3000);
                     } catch (InterruptedException e) {
-                        throw new RuntimeException(e);
+//                        throw new RuntimeException(e);   // rethrow , and if this not caught elsewhere , the program will terminate
+
+                        System.out.println("Thread three is interrupted");   //Program continues
                     }
                 }
                 System.out.println(i);
@@ -37,6 +41,7 @@ public class Main {
 
         //interrupt the first and second threads
         threadOne.interrupt();
+        threadThree.interrupt();
         thread.interrupt();
 
 
