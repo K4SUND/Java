@@ -5,7 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a0cd7202-b090-4a98-9140-af4d33933c00" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Expressions/Basics/src/main/java/ConditionalStatements/IfElse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Expressions/Basics/src/main/java/ConditionalStatements/IfElseChallegeMC.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Expressions/Basics/src/main/java/ConditionalStatements/IfElseChallenge.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Expressions/Basics/src/main/java/Methods/Challenge.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Expressions/Basics/src/main/java/WhiteSpace/WhiteSpace.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -13,7 +17,7 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
   <component name="ProjectColorInfo">{
   &quot;customColor&quot;: &quot;&quot;,
@@ -26,16 +30,22 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Application.Main.executor": "Run",
     "ModuleVcsDetector.initialDetectionPerformed": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.git.unshallow": "true",
     "dart.analysis.tool.window.visible": "false",
-    "git-widget-placeholder": "main",
+    "git-widget-placeholder": "master",
+    "ignore.virus.scanning.warn.message": "true",
+    "last_opened_file_path": "D:/Intern/Java/Threads",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
+    "project.structure.last.edited": "Project",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.0",
     "show.migrate.to.gradle.popup": "false",
     "vue.rearranger.settings.migration": "true"
   }
@@ -89,6 +99,9 @@
       <updated>1753519843170</updated>
       <workItem from="1753519845223" duration="17000" />
       <workItem from="1754410223753" duration="366000" />
+      <workItem from="1758560821991" duration="1379000" />
+      <workItem from="1759068504896" duration="863000" />
+      <workItem from="1759514127474" duration="1178000" />
     </task>
     <servers />
   </component>

@@ -13,7 +13,7 @@ public class ThreadOne extends Thread{
                 try {
                     Thread.sleep(1000);
                 } catch (InterruptedException e) {
-                    System.out.println("Thread is interrupted");
+                    System.out.println("Thread one is interrupted");
                     System.out.println(currentThread().getState());
                 }
             }
