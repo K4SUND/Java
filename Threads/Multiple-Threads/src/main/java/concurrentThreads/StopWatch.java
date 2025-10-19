@@ -1,4 +1,4 @@
-package unknown;
+package concurrentThreads;
 
 import java.util.concurrent.TimeUnit;
 
@@ -7,6 +7,9 @@ public class StopWatch {
     private TimeUnit timeUnit;
     //version 2 --> shared instance variable
 //    private int i;
+
+    //version 3 --> static variable , but different  instances
+    private static int i;
 
     public StopWatch(TimeUnit timeUnit) {
         this.timeUnit = timeUnit;
@@ -33,7 +36,7 @@ public class StopWatch {
         String color = threadColor.color();
 
         //version one --> local variable ( thread safe )
-        for( int i = unitCount ; i>0 ; i--){
+        for(i = unitCount ; i>0 ; i--){
             try{
                 //tell do 1 sec by 1 sec
                 timeUnit.sleep(1);
