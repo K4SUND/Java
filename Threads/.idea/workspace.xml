@@ -4,10 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a0cd7202-b090-4a98-9140-af4d33933c00" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/../Expressions/Basics/src/main/java/loops/ForStatement.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Expressions/Basics/src/main/java/loops/PrimeNumberChallege.java" afterDir="false" />
-    </list>
+    <list default="true" id="a0cd7202-b090-4a98-9140-af4d33933c00" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -16,18 +13,18 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
-  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
-  "lastFilter": {
-    "state": "OPEN",
-    "assignee": "K4SUND"
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;K4SUND&quot;
   }
-}]]></component>
-  <component name="GithubPullRequestsUISettings"><![CDATA[{
-  "selectedUrlAndAccountId": {
-    "url": "https://github.com/K4SUND/Java.git",
-    "accountId": "1070d617-03da-474c-be77-029d86a8f446"
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/K4SUND/Java.git&quot;,
+    &quot;accountId&quot;: &quot;1070d617-03da-474c-be77-029d86a8f446&quot;
   }
-}]]></component>
+}</component>
   <component name="ProjectColorInfo">{
   &quot;customColor&quot;: &quot;&quot;,
   &quot;associatedIndex&quot;: 8
@@ -111,7 +108,8 @@
       <workItem from="1758560821991" duration="1379000" />
       <workItem from="1759068504896" duration="863000" />
       <workItem from="1759514127474" duration="1178000" />
-      <workItem from="1761425892014" duration="3034000" />
+      <workItem from="1761425892014" duration="3035000" />
+      <workItem from="1761664151560" duration="141000" />
     </task>
     <servers />
   </component>
