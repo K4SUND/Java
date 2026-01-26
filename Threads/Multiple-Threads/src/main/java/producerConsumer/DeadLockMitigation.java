@@ -1,10 +1,10 @@
 package producerConsumer;
 
-
 import java.util.Random;
 
+
 //hold single message
-class Message {
+class MessageNew {
 
     // this is shared
     // someone produce this
@@ -15,11 +15,24 @@ class Message {
     // this method access to critical section
     // therefore add synchronized
     public synchronized String readText() {
+
+        // hasText - flag checks and continue to wait
+        // therefore waking up and check here and again wait or doing
+
+
+
         while (!hasText) {
             // loop until there is a message
+            try {
+                wait(); // then it release the lock
+            } catch (InterruptedException e) {
+                throw new RuntimeException(e);
+            }
+
         }
         // if there is a message it comes to here
         hasText = false;
+        notifyAll();
         return text;
     }
 
@@ -28,26 +41,37 @@ class Message {
     public synchronized void writeText(String text) {
         while (hasText) {
 
+            // hasText - flag checks and continue to wait
+            // therefore waking up and check here and again wait or doing
+
+
+            try {
+                wait(); // then it release the lock
+            } catch (InterruptedException e) {
+                throw new RuntimeException(e);
+            }
+
         }
         hasText = true;
+        notifyAll();
         this.text = text;
+
     }
 
 }
 
-
 // producer
 // write
-class Producer implements Runnable {
+class ProducerNew implements Runnable {
 
-    private Message writingMessage;
+    private MessageNew writingMessage;
     private String text = """
             Hello world,
             Good morning,
             Bye Bye,
             """;
 
-    public Producer(Message writingMessage) {
+    public ProducerNew(MessageNew writingMessage) {
         this.writingMessage = writingMessage;
     }
 
@@ -73,10 +97,10 @@ class Producer implements Runnable {
 
 // consumer
 // read
-class Consumer implements Runnable {
-    private Message readingMessage;
+class ConsumerNew implements Runnable {
+    private MessageNew readingMessage;
 
-    public Consumer(Message readingMessage) {
+    public ConsumerNew(MessageNew readingMessage) {
         this.readingMessage = readingMessage;
     }
 
@@ -100,19 +124,20 @@ class Consumer implements Runnable {
     }
 }
 
-public class DeadLockShow {
+
+public class DeadLockMitigation {
 
     public static void main(String[] args) {
 
 
         //shared message object
-        Message message = new Message();
+        MessageNew message = new MessageNew();
 
         //work same message object
         //reader
-        Thread reader = new Thread(new Consumer(message));
+        Thread reader = new Thread(new ConsumerNew(message));
         //writer
-        Thread writer = new Thread(new Producer(message));
+        Thread writer = new Thread(new ProducerNew(message));
 
         reader.start();
         writer.start();
@@ -120,3 +145,4 @@ public class DeadLockShow {
 
     }
 }
+

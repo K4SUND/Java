@@ -4,16 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ffec342b-bd9e-42d3-a281-39929c6bec07" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/../Lists/src/main/java/Unknown/Challenge.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ClientServer/Client.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ClientServer/Server.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Threads/Multiple-Threads/src/main/java/producerConsumer/DeadLockShow.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../WebSockets/.idea/WebSockets.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../WebSockets/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../WebSockets/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../WebSockets/.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../WebSockets/.idea/workspace.xml" beforeDir="false" />
+    <list default="true" id="ffec342b-bd9e-42d3-a281-39929c6bec07" name="Changes" comment="Array List continue&#10;Mutlithreading continue&#10;Socket programming start">
+      <change afterPath="$PROJECT_DIR$/../Threads/Multiple-Threads/src/main/java/producerConsumer/DeadLockMitigation.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ClientServer/Client.java" beforeDir="false" afterPath="$PROJECT_DIR$/ClientServer/Client.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ClientServer/Server.java" beforeDir="false" afterPath="$PROJECT_DIR$/ClientServer/Server.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Threads/Multiple-Threads/src/main/java/producerConsumer/DeadLockShow.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Threads/Multiple-Threads/src/main/java/producerConsumer/DeadLockShow.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -38,22 +34,25 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ModuleVcsDetector.initialDetectionPerformed": "true",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.git.unshallow": "true",
-    "dart.analysis.tool.window.visible": "false",
-    "git-widget-placeholder": "master",
-    "ignore.virus.scanning.warn.message": "true",
-    "jdk.selected.JAVA_MODULE": "22",
-    "kotlin-language-version-configured": "true",
-    "nodejs_package_manager_path": "npm",
-    "show.migrate.to.gradle.popup": "false",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Application.Client.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Server.executor&quot;: &quot;Run&quot;,
+    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;dart.analysis.tool.window.visible&quot;: &quot;false&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
+    &quot;jdk.selected.JAVA_MODULE&quot;: &quot;22&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;editor.preferences.tabs&quot;,
+    &quot;show.migrate.to.gradle.popup&quot;: &quot;false&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RunManager">
     <configuration default="true" type="AZURE_FUNCTION_SUPPORT" factoryName="Run Functions">
       <option name="appName" />
@@ -85,6 +84,28 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Client" type="Application" factoryName="Application" singleton="false" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Client" />
+      <module name="WebSockets" />
+      <extension name="net.ashald.envfile">
+        <option name="IS_ENABLED" value="false" />
+        <option name="IS_SUBST" value="false" />
+        <option name="IS_PATH_MACRO_SUPPORTED" value="false" />
+        <option name="IS_IGNORE_MISSING_FILES" value="false" />
+        <option name="IS_ENABLE_EXPERIMENTAL_INTEGRATIONS" value="false" />
+        <ENTRIES>
+          <ENTRY IS_ENABLED="true" PARSER="runconfig" IS_EXECUTABLE="false" />
+        </ENTRIES>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Client" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -96,9 +117,33 @@
       <updated>1756309388116</updated>
       <workItem from="1756309388705" duration="36000" />
     </task>
+    <task id="LOCAL-00001" summary="Array List continue&#10;Mutlithreading continue&#10;Socket programming start">
+      <option name="closed" value="true" />
+      <created>1769079589479</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1769079589479</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Array List continue&#10;Mutlithreading continue&#10;Socket programming start" />
+    <option name="LAST_COMMIT_MESSAGE" value="Array List continue&#10;Mutlithreading continue&#10;Socket programming start" />
   </component>
 </project>
