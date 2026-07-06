@@ -5,11 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ffec342b-bd9e-42d3-a281-39929c6bec07" name="Changes" comment="Array List continue&#10;Mutlithreading continue&#10;Socket programming start">
-      <change afterPath="$PROJECT_DIR$/../Threads/Multiple-Threads/src/main/java/producerConsumer/DeadLockMitigation.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ClientServer/Client.java" beforeDir="false" afterPath="$PROJECT_DIR$/ClientServer/Client.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ClientServer/Server.java" beforeDir="false" afterPath="$PROJECT_DIR$/ClientServer/Server.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Threads/Multiple-Threads/src/main/java/producerConsumer/DeadLockShow.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Threads/Multiple-Threads/src/main/java/producerConsumer/DeadLockShow.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
