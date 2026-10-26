@@ -5,6 +5,35 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ffec342b-bd9e-42d3-a281-39929c6bec07" name="Changes" comment="Array List continue&#10;Mutlithreading continue&#10;Socket programming start">
+      <change afterPath="$PROJECT_DIR$/../Expressions/Basics/src/main/java/OOP/abstraction/Animal.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Expressions/Basics/src/main/java/OOP/abstraction/Dog.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Expressions/Basics/src/main/java/OOP/abstraction/Fish.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Expressions/Basics/src/main/java/OOP/abstraction/Horse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Expressions/Basics/src/main/java/OOP/abstraction/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Expressions/Basics/src/main/java/OOP/abstraction/Mammel.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Expressions/Basics/src/main/java/OOP/abstraction/challenge/OrderItem.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Expressions/Basics/src/main/java/OOP/abstraction/challenge/ProductForSale.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Expressions/Basics/src/main/java/OOP/abstraction/challenge/Store.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Expressions/Basics/src/main/java/OOP/abstraction/challenge/products/Laptop.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Expressions/Basics/src/main/java/OOP/abstraction/challenge/products/MobilePhone.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Expressions/Basics/src/main/java/OOP/interfaceLearn/Animal.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Expressions/Basics/src/main/java/OOP/interfaceLearn/Bird.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Expressions/Basics/src/main/java/OOP/interfaceLearn/FlightEnabled.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Expressions/Basics/src/main/java/OOP/interfaceLearn/Jet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Expressions/Basics/src/main/java/OOP/interfaceLearn/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Expressions/Basics/src/main/java/OOP/interfaceLearn/Trackable.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Expressions/Basics/src/main/java/OOP/interfaceLearn/Truck.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Expressions/Basics/src/main/java/OOP/interfaceLearn/extendsInterface/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Expressions/Basics/src/main/java/OOP/interfaceLearn/extendsInterface/OrbitEarth.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Expressions/Basics/src/main/java/OOP/interfaceLearn/extendsInterface/Satellite.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Expressions/Basics/src/main/java/OOP/interfaceLearn/extendsInterface/enums/FlightStages.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Expressions/Basics/src/main/java/OOP/interfaceLearn/extendsInterface/records/DragonFly.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Expressions/Basics/src/main/java/OOP/interfaceLearn/jdk8enhancements/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Expressions/Basics/src/test/java/staticTest/StaticTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ClientServer/MultiClient/Client.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ClientServer/MultiClient/Server.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ClientServer/MultiClientWithThreads/Client.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ClientServer/MultiClientWithThreads/Server.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -22,6 +51,18 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;K4SUND&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/K4SUND/Java.git&quot;,
+    &quot;accountId&quot;: &quot;9532f9d1-78f0-4f68-b4cd-15279d64a2c8&quot;
+  }
+}</component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 1
 }</component>
@@ -30,26 +71,43 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Application.Client.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Server.executor&quot;: &quot;Run&quot;,
-    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
-    &quot;dart.analysis.tool.window.visible&quot;: &quot;false&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
-    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
-    &quot;jdk.selected.JAVA_MODULE&quot;: &quot;22&quot;,
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;editor.preferences.tabs&quot;,
-    &quot;show.migrate.to.gradle.popup&quot;: &quot;false&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Application.Client.executor": "Run",
+    "Application.MultiClient.Client.executor": "Run",
+    "Application.MultiClient.Server.executor": "Run",
+    "Application.MultiClientWithThreads.Client.executor": "Run",
+    "Application.MultiClientWithThreads.Server.executor": "Run",
+    "Application.Server.executor": "Run",
+    "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "RunOnceActivity.typescript.service.memoryLimit.init": "true",
+    "codeWithMe.voiceChat.enabledByDefault": "false",
+    "dart.analysis.tool.window.visible": "false",
+    "git-widget-placeholder": "master",
+    "ignore.virus.scanning.warn.message": "true",
+    "jdk.selected.JAVA_MODULE": "22",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "D:/Intern/Java/Networking/ClientServer/MultiClientWithThreads",
+    "nodejs_package_manager_path": "npm",
+    "project.structure.last.edited": "Global Libraries",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.2",
+    "settings.editor.selected.configurable": "editor.preferences.tabs",
+    "show.migrate.to.gradle.popup": "false",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
-  <component name="RunManager">
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Intern\Java\Networking\ClientServer\MultiClientWithThreads" />
+      <recent name="D:\Intern\Java\Networking\ClientServer\MultiClient" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.Client">
     <configuration default="true" type="AZURE_FUNCTION_SUPPORT" factoryName="Run Functions">
       <option name="appName" />
       <option name="appServicePlanName" />
@@ -97,8 +155,64 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="MultiClientWithThreads.Client" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="MultiClientWithThreads.Client" />
+      <module name="WebSockets" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="MultiClientWithThreads.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MultiClientWithThreads.Server" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="MultiClientWithThreads.Server" />
+      <module name="WebSockets" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="MultiClientWithThreads.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MultiClient.Client" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="MultiClient.Client" />
+      <module name="WebSockets" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="MultiClient.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MultiClient.Server" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="MultiClient.Server" />
+      <module name="WebSockets" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="MultiClient.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.MultiClientWithThreads.Client" />
+        <item itemvalue="Application.MultiClientWithThreads.Server" />
+        <item itemvalue="Application.MultiClient.Client" />
+        <item itemvalue="Application.MultiClient.Server" />
         <item itemvalue="Application.Client" />
       </list>
     </recent_temporary>
